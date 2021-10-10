@@ -1,0 +1,92 @@
+.winners {
+  padding: 10px 0 0 0;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.count-winners {
+  display: inline-block;
+  padding: 0 50px 25px 0;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.page-winners {
+  display: inline-block;
+  padding: 0 0 25px 0;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.t-head-winners {
+  padding: 0 8px;
+  width: 100%;
+  max-width: 516px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(132, 252, 152);
+  line-height: 28px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.wins {
+  border: none;
+  outline: none;
+  background-color: rgb(132, 252, 152);
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.best-time {
+  border: none;
+  outline: none;
+  background-color: rgb(132, 252, 152);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.winner {
+  padding: 0 8px;
+  width: 100%;
+  max-width: 516px;
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(210, 248, 216);
+  line-height: 28px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.winner-number {
+  flex: 0 0 80px;
+  display: flex;
+}
+
+.winner-car {
+  flex: 0 0 107px;
+  display: flex;
+}
+
+.winner-name {
+  flex: 0 0 112px;
+  display: flex;
+  font-size: 9px;
+}
+
+.winner-wins {
+  flex: 0 0 110px;
+  display: flex;
+}
+
+.winner-time {
+  flex: 0 0 100px;
+  display: flex;
+}

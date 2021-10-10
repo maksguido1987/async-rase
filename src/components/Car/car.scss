@@ -1,0 +1,62 @@
+.car {
+  margin: 0 0 10px 0;
+  position: relative;
+  padding: 3px 10px 5px;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.car-control {
+  & .buttons {
+    font-weight: 500;
+    font-size: 10px;
+  }
+}
+
+.top-buttons {
+  margin: 0 0 5px 0;
+}
+
+.select-car {
+  margin: 0 10px 0 0;
+}
+
+.remove-car {
+  margin: 0 10px 0 0;
+}
+
+.start-car {
+  margin: 0 10px 0 0;
+}
+
+.car-name {
+  display: inline-block;
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.car-image-wrapper {
+  position: absolute;
+  bottom: -3px;
+  left: 7%;
+  &.animate {
+    animation-name: drive;
+    animation-fill-mode: forwards;
+  }
+  &.paused {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes drive {
+  0% {
+    left: 7%;
+  }
+  100% {
+    left: 94%;
+  }
+}
